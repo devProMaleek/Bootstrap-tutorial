@@ -1718,87 +1718,242 @@
 
 
 <!--Flexbox-->
-<div class="container mt-3">
-    <h2>Flex</h2>
-    <p>To create a flexbox container and transform direct children into flex items, use the d-flex class:</p>
-    <div class="d-flex p-3 bg-secondary text-white">
-        <div class="p-2 bg-info rounded-start">Flex Item 1</div>
-        <div class="p-2 bg-warning">Flex Item 2</div>
-        <div class="p-2 bg-primary rounded-end">Flex Item 3</div>
+<!--<div class="container mt-3">-->
+<!--    <h2>Flex</h2>-->
+<!--    <p>To create a flexbox container and transform direct children into flex items, use the d-flex class:</p>-->
+<!--    <div class="d-flex p-3 bg-secondary text-white">-->
+<!--        <div class="p-2 bg-info rounded-start">Flex Item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex Item 2</div>-->
+<!--        <div class="p-2 bg-primary rounded-end">Flex Item 3</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container mt-3">-->
+<!--    <h2>Inline Flex</h2>-->
+<!--    <p>To create an inline flexbox container, use the d-inline-flex class:</p>-->
+<!--    <div class="d-inline-flex p-3 bg-secondary text-white">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container mt-3">-->
+<!--    <h2>Horizontal Direction</h2>-->
+<!--    <p>Use .flex-row to make the flex items appear side by side (default):</p>-->
+<!--    <div class="d-flex flex-row bg-secondary mb-3 p-3">-->
+<!--        <div class="p-2 bg-info">Flex Item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex Item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex Item 3</div>-->
+<!--    </div>-->
+
+<!--    <p>Use .flex-row-reverse to right-align the direction:</p>-->
+
+<!--    <div class="d-flex flex-row-reverse bg-secondary p-3">-->
+<!--        <div class="p-2 bg-info">Flex Item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex Item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex Item 3</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container mt-3">-->
+<!--    <h2>Vertical Direction</h2>-->
+<!--    <p>Use .flex-column to display the flex items vertically (on top of each other):</p>-->
+<!--    <div class="d-flex flex-column mb-3 p-3 bg-secondary">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--    <p>Use .flex-column-reverse to reverse the vertical direction:</p>-->
+<!--    <div class="d-flex flex-column-reverse p-3 bg-secondary">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container mt-3">-->
+<!--    <h2>Justify content</h2>-->
+<!--    <p>Use the .justify-content-* classes to change the alignment of flex items. Choose from start (default), end, center, between or around:</p>-->
+<!--    <div class="d-flex justify-content-start bg-secondary mb-3">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--    <div class="d-flex justify-content-end bg-secondary mb-3">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--    <div class="d-flex justify-content-center bg-secondary mb-3">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--    <div class="d-flex justify-content-between bg-secondary mb-3">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--    <div class="d-flex justify-content-around bg-secondary mb-3">-->
+<!--        <div class="p-2 bg-info">Flex item 1</div>-->
+<!--        <div class="p-2 bg-warning">Flex item 2</div>-->
+<!--        <div class="p-2 bg-primary">Flex item 3</div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--Bootstrap Grid-->
+
+<!--<div class="container mt-3">-->
+<!--    <h1>Basic Grid Structure</h1>-->
+<!--    <p>The first, second and third row will automatically stack on top of each other when the screen is less than 576px wide.</p>-->
+
+<!--&lt;!&ndash;    Control the column width and how they should appear on different devices&ndash;&gt;-->
+
+<!--    <div class="row">-->
+<!--        <div class="col-sm-6 bg-primary text-white">50%</div>-->
+<!--        <div class="col-sm-6 bg-dark text-white">50%</div>-->
+<!--    </div>-->
+<!--    <br>-->
+<!--    <div class="row">-->
+<!--        <div class="col-sm-4 bg-primary text-white">33.3%</div>-->
+<!--        <div class="col-sm-4 bg-dark text-white">33.3%</div>-->
+<!--        <div class="col-sm-4 bg-warning text-black">33.3%</div>-->
+<!--    </div>-->
+<!--    <br>-->
+
+<!--    &lt;!&ndash; Or let Bootstrap automatically handle the layout &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--        <div class="col-sm bg-primary text-white">25%</div>-->
+<!--        <div class="col-sm bg-dark text-white">25%</div>-->
+<!--        <div class="col-sm bg-primary text-white">25%</div>-->
+<!--        <div class="col-sm bg-dark text-white">25%</div>-->
+<!--    </div>-->
+<!--    <br>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;Bootstrap Stacked/Horizontal&ndash;&gt;-->
+<!--<div class="container-fluid mt-3">-->
+<!--    <h1>Grid Example</h1>-->
+<!--    <p>This example demonstrates a 50%/50% split on small, medium, large, xlarge and xxlarge devices.-->
+<!--        On extra small devices, it will stack (100% width).</p>-->
+<!--    <p>Resize the browser window to see the effect.</p>-->
+<!--    <div class="row">-->
+<!--        <div class="col-sm-6 bg-primary text-white p-3">-->
+<!--            Lorem ipsum...-->
+<!--        </div>-->
+<!--        <div class="col-sm-6 bg-dark text-white p-3">-->
+<!--            Sed ut perspiciatis...-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container mt-3">-->
+<!--    <h1>Grid Example</h1>-->
+<!--    <p>This example demonstrates a 50%/50% split on small, medium, large, xlarge and xxlarge devices. On extra small devices, it will stack (100% width).</p>-->
+<!--    <p>Resize the browser window to see the effect.</p>-->
+<!--    <div class="row">-->
+<!--        <div class="col-sm-6 bg-primary text-white p-3">-->
+<!--            Lorem ipsum...-->
+<!--        </div>-->
+<!--        <div class="col-sm-6 bg-dark text-white p-3">-->
+<!--            Sed ut perspiciatis...-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;Auto-layout Columns&ndash;&gt;-->
+
+<!--<div class="container-fluid mt-3">-->
+<!--    <h1>Auto Layout Columns</h1>-->
+<!--    <p>In Bootstrap 5, there is an easy way to create equal width columns: just use the <code>.col-size</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>-->
+<!--    <p>Two columns: 50% width on all screens, except for extra small (100% width on screens less than <strong>576px</strong> wide)</p>-->
+<!--    <div class="container-fluid">-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm bg-primary text-white p-3">1 of 2</div>-->
+<!--            <div class="col-sm bg-dark text-white p-3">2 of 2</div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <br>-->
+
+<!--    <p>Four columns: 25% width on all screens, except for extra small (100% width on screens less than <strong>576px</strong> wide)</p>-->
+<!--    <div class="container-fluid">-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm bg-primary text-white p-3">1 of 4</div>-->
+<!--            <div class="col-sm bg-dark text-white p-3">2 of 4</div>-->
+<!--            <div class="col-sm bg-pri mary text-white p-3">3 of 4</div>-->
+<!--            <div class="col-sm bg-dark text-white p-3">4 of 4</div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--Extra Small Grid-->
+
+<div class="container-fluid mt-3">
+    <h1>Extra Small Grid (Auto Layout)</h1>
+    <p>The following example will result in a 25%/75% split on all devices.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 bg-primary text-white p-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-9 bg-dark text-white p-3">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="container mt-3">
-    <h2>Inline Flex</h2>
-    <p>To create an inline flexbox container, use the d-inline-flex class:</p>
-    <div class="d-inline-flex p-3 bg-secondary text-white">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
+<div class="container-fluid mt-3">
+    <h1>Extra Small Grid</h1>
+    <p>The following example will result in a 33.3%/66.6% split on all devices.</p>
+    <p>Resize the browser window to see the effect.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 bg-primary text-white p-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-8 bg-dark text-white p-3">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <p>This example will result in a 50%/50% split on all devices.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 bg-primary text-white p-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-6 bg-dark text-white p-3">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="container mt-3">
-    <h2>Horizontal Direction</h2>
-    <p>Use .flex-row to make the flex items appear side by side (default):</p>
-    <div class="d-flex flex-row bg-secondary mb-3 p-3">
-        <div class="p-2 bg-info">Flex Item 1</div>
-        <div class="p-2 bg-warning">Flex Item 2</div>
-        <div class="p-2 bg-primary">Flex Item 3</div>
+<div class="container-fluid mt-3">
+    <h1>Auto Layout Columns</h1>
+    <p>In Bootstrap 5, there is an easy way to create equal width columns for all devices: just use the <code>.col</code> class on a specified number of col elements. Bootstrap will recognize how many columns there are, and each column will get the same width.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-primary text-white p-3">1 of 2</div>
+            <div class="col bg-dark text-white p-3">2 of 2</div>
+        </div>
     </div>
+    <br>
 
-    <p>Use .flex-row-reverse to right-align the direction:</p>
-
-    <div class="d-flex flex-row-reverse bg-secondary p-3">
-        <div class="p-2 bg-info">Flex Item 1</div>
-        <div class="p-2 bg-warning">Flex Item 2</div>
-        <div class="p-2 bg-primary">Flex Item 3</div>
-    </div>
-</div>
-
-<div class="container mt-3">
-    <h2>Vertical Direction</h2>
-    <p>Use .flex-column to display the flex items vertically (on top of each other):</p>
-    <div class="d-flex flex-column mb-3 p-3 bg-secondary">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
-    </div>
-    <p>Use .flex-column-reverse to reverse the vertical direction:</p>
-    <div class="d-flex flex-column-reverse p-3 bg-secondary">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
-    </div>
-</div>
-
-<div class="container mt-3">
-    <h2>Justify content</h2>
-    <p>Use the .justify-content-* classes to change the alignment of flex items. Choose from start (default), end, center, between or around:</p>
-    <div class="d-flex justify-content-start bg-secondary mb-3">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
-    </div>
-    <div class="d-flex justify-content-end bg-secondary mb-3">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
-    </div>
-    <div class="d-flex justify-content-center bg-secondary mb-3">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
-    </div>
-    <div class="d-flex justify-content-between bg-secondary mb-3">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
-    </div>
-    <div class="d-flex justify-content-around bg-secondary mb-3">
-        <div class="p-2 bg-info">Flex item 1</div>
-        <div class="p-2 bg-warning">Flex item 2</div>
-        <div class="p-2 bg-primary">Flex item 3</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-primary text-white p-3">1 of 4</div>
+            <div class="col bg-dark text-white p-3">2 of 4</div>
+            <div class="col bg-primary text-white p-3">3 of 4</div>
+            <div class="col bg-dark text-white p-3">4 of 4</div>
+        </div>
     </div>
 </div>
 </body>
